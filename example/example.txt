@@ -1,0 +1,6 @@
+// Example  Configuration 
+
+example.php is visible
+
+
+Test/otherExample.txt  is ignored in the configuration
