@@ -1,24 +1,63 @@
 findFile
 ==================================================
 
-FindFile is a search engine for files and folders to use with your Localhost index.php.
-The idea is to navigate through columns or search and view the selected files.
+FindFile is a search engine for files and folders to use with your Localhost index.php.  
+The idea is to navigate through columns and search, also view the selected files.
 
 
 Browser Support
 --------------------------------------
-findFile was not tested in all browsers
+findFile was not tested in all browsers and may have some issues.
 
--Chrome			check
--Safari			check
--IE 10			-----
--Firefox		-----
--Opera			-----
+<table>
+  <tr>
+    <th>Browser</th>
+    <th>Version</th>
+    <th>Platform</th>
+    <th>Tested</th>
+  </tr>
+  <tr>
+    <td>Chrome</td>
+    <td>31+</td>
+    <td>MAC / PC</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>7+</td>
+    <td>MAC / PC</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>25+</td>
+    <td>MAC </td>
+    <td>False</td>
+  </tr>
+  <tr>
+    <td>Opera</td>
+    <td>18+</td>
+    <td>MAC </td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Internet Explorer</td>
+    <td>10</td>
+    <td>PC</td>
+    <td>False</td>
+  </tr>
+</table>
+
+
+Libraries
+--------------------------------------
+[Mootools](https://github.com/mootools)  
+[Hyperlight](https://code.google.com/p/hyperlight/)  
 
 
 Structure
 --------------------------------------
-```txt
+```
 |index.php
 [findFile]
 +---[css]
@@ -55,9 +94,4 @@ Structure
 			|filetypes
 ```
 
-
-Libraries
---------------------------------------
-[Mootools](https://github.com/mootools)
-[Hyperlight](https://code.google.com/p/hyperlight/)
 
